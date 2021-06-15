@@ -63,7 +63,7 @@ y
 
 # add observation names
 dimnames(x)[[1]]<-paste("id",1:4,sep="")
-# rwonames(x) <- c("id1", "id2", "id3", "id4")
+rownames(x) <- c("id1", "id2", "id3", "id4")
 x
 
 
